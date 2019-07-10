@@ -19,6 +19,7 @@ public class StringOperation {
 		System.out.println("Concat:\t"+so.concat("5","5"));
 		System.out.println("Length:\t"+so.Length("helloworld"));
 		System.out.println("Contains:\t"+so.Contains("break","b"));
+		System.out.println("End");
 		
 	}
 
