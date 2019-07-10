@@ -15,19 +15,22 @@ public class TestString {
 		String expected="55";
 		assertEquals(expected, actual);
 	}
+
+	
 	@Test
 
 	public void testLength() {
 		StringOperation so = new StringOperation();
-		String actual= so.Length ("bee");
-		String expected=4;
+	int actual= so.Length("bee");
+		int expected=3;
 		assertEquals(expected, actual);
 	}
 	@Test
 
 	public void testContains() {
 		StringOperation so = new StringOperation();
-		String actual= so.Contains ("bee","e");
-		String expected=true;
+		boolean actual= so.Contains ("bee","e");
+		boolean expected=true;
 		assertEquals(expected, actual);
 	}
+}

@@ -3,7 +3,7 @@ package com.first;
 public class StringOperation {
 	public String concat(String a, String b)
 	{
-		return a+b;
+		return a.concat(b);
 	}
 	public int Length(String a)
 	{
